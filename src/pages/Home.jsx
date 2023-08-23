@@ -1,10 +1,12 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+// import Navigation from '../components/header/Navigation';
+import Banner from '../components/Banner';
 
 const Home = () => {
     return (
         <div>
-            <Navigation />
+            {/* <Navigation /> */}
+            <Banner />
             <h1>Home</h1>
         </div>
     );

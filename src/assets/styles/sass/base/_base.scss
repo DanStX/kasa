@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: $white;
+    // font-family: $font-1;
+    // @include verticalCenter;
+  }
+  li {
+    list-style-type: none;
+  }
+  

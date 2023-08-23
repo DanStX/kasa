@@ -1,10 +1,11 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Banner from '../components/Banner';
+// import Navigation from '../components/header/Navigation';
 
 const Error404 = () => {
     return (
         <div>
-            <Navigation />
+            <Banner />
             page 404
         </div>
     );
