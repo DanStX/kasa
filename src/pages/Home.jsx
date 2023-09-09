@@ -1,13 +1,14 @@
 import React from 'react';
-// import Navigation from '../components/header/Navigation';
-import Banner from '../components/Banner';
+import Locations from '../components/Locations';
+
 
 const Home = () => {
     return (
-        <div>
-            {/* <Navigation /> */}
-            <Banner />
+        
+        <div className='main home'>
+    
             <h1>Home</h1>
+            <Locations />
         </div>
     );
 };

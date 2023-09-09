@@ -1,1 +1,40 @@
-//This file you will create your rule of typographys inside of the project
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900 & display=échange');
+
+
+// General text
+body, a {
+    line-height: 1.7;
+    color: $color-text;
+    font-size: $fs-small;
+    font-family: $ff-text;
+    font-weight: $fw-small;
+}
+li {
+    font-size: $fs-medium;
+}
+// Titles
+.big-title {
+    font-size: $fs-title;
+    font-family: $ff-title;
+}
+
+.title {
+    font-size: $fs-title;
+}
+
+h2 {
+    font-family: $ff-text;
+    padding: $P-Medium1;
+    font-weight: $fw-bolder;
+}
+
+h3,
+h4 {
+    font-family: $ff-text;
+    font-weight: $fw-bold;
+}
+
+.footer__title {
+    font-family: $ff-title;
+    font-weight: 400;
+}

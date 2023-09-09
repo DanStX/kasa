@@ -1,13 +1,17 @@
 .navigation {
-    ul {
-      display: flex;
-      margin: 30px;
+  // width: 50%;
+  // height: 25%;
   
-      a {
-        text-decoration: none;
-        padding: 10px;
+  ul {
+    display: flex;
+    justify-content: end;
   
-        li {
+    
+    a {
+      text-decoration: none;
+      padding: 10px;
+      
+      li {
           color: $color-1;
           transition: 0.2s;
           cursor: pointer;

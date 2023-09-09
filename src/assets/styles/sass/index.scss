@@ -9,18 +9,22 @@
 
 @import 
     './base/reset',
+    './base/typography',
     './base/base';
 
-// @import 
+@import 
 
-//     './layout/header',
-//     './layout/main',
-//     './layout/footer';
+    './layout/banner',
+    './layout/header',
+    './layout/main',
+    './layout/footer';
     
 @import 
     
-    './components/navigation';
-    // './components/logo';
+'./components/navigation',
+'./components/logo',
+'./components/cards',
+'./components/navigation';
     
     
     

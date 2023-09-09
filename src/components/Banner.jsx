@@ -1,15 +1,16 @@
 import React from 'react';
-
 import Logo from './header/Logo';
 import Navigation from './header/Navigation';
 
 
 
-const Banner = () => {
+const Banner = ({ showNavigation }) => {
   return (
-    <div>
+    <div className='banner'>
         <Logo />
-      <Navigation />
+        {/* {showNavigation &&  */}
+        <Navigation />
+        {/* } */}
     </div>
   );
 };

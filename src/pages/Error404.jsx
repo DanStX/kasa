@@ -1,13 +1,20 @@
 import React from 'react';
-import Banner from '../components/Banner';
+import { NavLink } from 'react-router-dom';
+
 // import Navigation from '../components/header/Navigation';
 
 const Error404 = () => {
     return (
-        <div>
-            <Banner />
-            page 404
-        </div>
+        
+        <main className='main error'>
+            
+            <span className="error__span">404</span>
+            <p className="error__para">Oups! La page que vous demandez n'exite pas.</p>
+
+            <NavLink to='/'>
+                        Retourner sur la page d'accueil
+            </NavLink>
+        </main>
     );
 };
 

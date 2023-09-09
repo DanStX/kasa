@@ -1,1 +1,18 @@
-//This file is for create your style with relation on space of footer
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    color: $white;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $black;
+    z-index: 1000;
+
+    .img-footer {
+        margin-right: 0.3rem;
+    }
+
+ }

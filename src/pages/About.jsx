@@ -1,11 +1,12 @@
 import React from 'react';
-import Banner from '../components/Banner';
+
 // import Navigation from '../components/header/Navigation';
 
 const About = () => {
     return (
-        <div>
-            <Banner />
+        
+        <div className='main about'>
+            
             <h1>A propos</h1>
             <h2>Fiablité</h2>
 
@@ -15,8 +16,7 @@ const About = () => {
 
             </section>
 
-            {/* <h2></h2>
-            <h2></h2> */}
+        
         </div>
 
     );
